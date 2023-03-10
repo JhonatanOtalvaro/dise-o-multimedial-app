@@ -163,6 +163,7 @@ header{
 
 .categories {
     background: var(--color-bg1);
+    height: 45rem;
 }
 
 .categories h1 {
@@ -172,7 +173,7 @@ header{
 
 .categories__container {
     display: grid;
-    grid-template-columns: 40% 50%;
+    grid-template-columns: 40% 60%;
     gap: 4rem;
     align-items: center;
 }
@@ -181,9 +182,17 @@ header{
     margin: 1rem 0 3rem;
 }
 
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #001a57;
+    text-decoration: overline;
+}
+
 .categories__right {
     display: grid;
-    grid-template-columns: repeat;
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
 }
 
@@ -199,7 +208,68 @@ header{
     z-index: 1;
 }
 
+.categories__right h5 {
+    margin: 2rem 0 1rem;
+}
+
 .category p {
     font-size: 0.85rem;
 }
 
+.category i {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 0.78rem;
+    border-radius: 0.9rem;
+    color: white;
+    font-size: 20px;
+}
+
+.courses {
+    margin-top: 10rem;
+}
+
+.courses__container {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 2rem;
+}
+
+.course {
+    background: var(--color-bg2);
+    border: 3px solid transparent;
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.course:hover {
+    background: transparent;
+    border-color: var(--color-danger);
+}
+
+.course__info {
+    padding: 2rem;
+    text-align: center;
+}
+
+.course__info p {
+    margin: 1.2rem 0 1rem;
+    font-size: 0.9rem;
+}
+
+.descripcion {
+    background-color: var(--color-bg1);
+    box-shadow: inset 0 0 3rem rgba(0, 0, 0, 0.5);
+}
+
+.descripcion__container h1 {
+    background: black;
+    white-space: nowrap;
+    margin-left: 35rem;
+}
+
+.descripcion__container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
