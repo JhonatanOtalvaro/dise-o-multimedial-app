@@ -34,7 +34,7 @@ menuBtn.addEventListener('click', () => {
     menuBtn.style.display = "none";
 })
 
-// close nav bar
+// close navBar
 
 const closeNav = () => {
     menu.style.display = "none";
