@@ -1,0 +1,45 @@
+.informacion__cursos {
+    margin-top: 3rem;
+}
+
+.informacion__cursos-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.informacion__cursos-right p {
+    margin: 1.5rem 0 2.5rem;
+}
+
+.cursos__cartas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.cursos__carta {
+    background: var(--color-bg1);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.cursos__carta:hover {
+    background: var(--color-bg2);
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+}
+
+.curso__icon {
+    background: var(--color-danger);
+    padding: 0.6rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.curso__carta p {
+    margin-top: 1rem;
+}
