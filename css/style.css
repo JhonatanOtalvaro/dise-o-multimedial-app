@@ -391,6 +391,7 @@ footer ul li a:hover {
 
 
 
+
 @media screen and (max-width: 1650px) {
     .container {
         width: var(--container-width-md);
@@ -507,6 +508,91 @@ footer ul li a:hover {
         justify-content: space-between;
         text-align: center;
         align-items: center;        
+    }
+
+    .courses {
+        margin-top: 0;
+    }
+
+    .courses__container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .preguntas__container {
+        grid-template-columns: 1fr;
+    }
+
+    .pregunta {
+        padding: 1.5rem;
+    }
+
+    .footer__container {
+        grid-template-columns: 2fr 1fr;
+    }
+
+}
+
+/*Movil*/
+
+@media screen and (max-width: 758px) {
+    .container {
+        width: var(--container-width-sm)
+    }
+
+    .nav__menu {
+        right: 3%;
+    }
+
+    header {
+        height: 100vh;
+    }
+
+    .header__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .header__left p {
+        margin-bottom: 1.3rem;
+    }
+
+    .categories__right {
+        grid-template-columns: 1fr 1fr;
+        gap: 0.7rem;    
+    }
+
+    .category {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    .category__icon {
+        margin-top: 4px;
+        display: inline-block;
+    }
+
+    .categories__left {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .courses__container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer__container {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 2rem;
+    }
+
+    .footer__1 p {
+        margin: 1rem auto;
+    }
+
+    .footer-socials {
+        justify-content: center;
     }
 
 }
