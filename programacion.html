@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programación</title>
+  <link rel="stylesheet" href="css/programacion.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="container nav__container">
+      <a href="index.html">
+        <h4>Programación & Base de Datos</h4>
+      </a>
+      <ul class="nav__menu">
+        <li>
+          <a href="index.html"><i class="uil uil-estate"></i> Inicio</a>
+        </li>
+        <li>
+          <a href="informacion.html"><i class="uil uil-info-circle"></i> Información</a>
+        </li>
+        <li>
+          <a href="programacion.html"><i class="uil uil-brackets-curly"></i> Programación</a>
+        </li>
+        <li>
+          <a href="baseDatos.html"><i class="uil uil-database"></i> Base de Datos</a>
+        </li>
+      </ul>
+      <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+      <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+    </div>
+  </nav>
+
+  <section id="info-programacion">
+    <h1 style="margin-top: 50px;">BIENVENIDOS!! NIVEL BÁSICO</h1>
+    <h2 style="margin-top: 50px;">Módulo 1: Conceptos Básicos</h2>
+    <p>
+      La lógica es la base de todo el conocimiento en programación, ya que es <br />
+      posible aprender a escribir un código para que la computadora interprete correctamente. <br />
+      Es decir que aprendes a comunicarte con la máquina a partir de un lenguaje. <br />
+    </p>
+    <p>
+      Ten en cuenta que el lenguaje en sí no importa mucho al inicio, puesto
+      que la lógica es la misma <br />
+      para todos, por esta razón no te preocupes, comenzar aprendiendo la
+      lógica de programación es <br />
+      el mejor camino y aquí te ayudaremos a encontrarlo.
+    </p>
+    <section id="seccion-oculta" style="display: none">
+      <h2>¡Respuesta correcta!</h2>
+      <p>
+        Lógica es la técnica utilizada para desarrollar instrucciones en una
+        secuencia para lograr determinado objetivo.​
+      </p>
+      <button id="boton-cierre" type="button">Cerrar</button>
+    </section>
+    <form id="formulario">
+      <label for="respuesta">¿Qué es Lógica de Programación?​</label>
+      <input type="text" id="respuesta" name="respuesta" />
+      <button id="enviar" type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section class="container__algoritmo header__container" style="display: flex; align-items: center;">
+    <div class="header__left">
+      <h1>Módulo 1: Conceptos Básicos​ <i class="uil uil-notebooks"></i></h1>
+      <p class="cuadro-info">
+        ¿Qué es un Algoritmo?​ El algoritmo es la propia secuencia de instrucciones para la ejecución de una tarea. De
+        una forma más simple, el algoritmo es una receta o ruta que indica todos los procedimientos necesarios para
+        realizar algo o resolver un problema.
+      </p>
+    </div>
+    <div class="header__right">
+      <div class="linea-verde">
+        <h2>Ejemplo:​ Algoritmo “Papa-frita”</h2>
+        <ol>
+          <li>Tomar las papas</li>
+          <li>Pelar las papas</li>
+          <li>Cortar las papas en tiras</li>
+          <li>Calentar aceite en un sartén</li>
+          <li>Freír las papas hasta que estén doradas</li>
+          <li>Retirar las papas y escurrirlas</li>
+          <li>Servir las papas fritas</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+  <div class="conceptos_basicos">
+    <h1>Módulo 1: Conceptos Básicos</h1>
+    <section class="variable-constante">
+      <div class="contenedor-variable-constante">
+        <div class="variable">
+          <h2>¿Qué es una Variable?​ </h2>
+
+          <p>
+            Una variable es un espacio para almacenar <br>
+            un tipo de dato que puede ser modificado <br>
+            cuando sea necesario.​
+          </p>
+          <div class="constante">
+            <h2>¿Qué es una Constante?​</h2>
+
+            <p>
+              En cambio la constante posee un dato
+              definido al inicio del programa y no podrá
+              ser alterado.​
+            </p>
+          </div>
+        </div>
+        <p class="ejemplo">
+          Continuando con el ejemplo de la “papa frita”, podemos decir que el aceite es una variable, ya que puede
+          estar caliente o frío. Y el tiempo que demoran las papas fritas en estar listas es una constante; pues siempre
+          serán 10 minutos, por ejemplo.​
+        </p>
+
+    </section>
+  </div>
+  <div class="actividad">
+    <h1>Módulo 1: Conceptos Básicos</h1>
+    <section class="actividad-unir">
+      <div class="titulo-actividad">
+        <h1>Actividad</h1>
+        <h2>Unir cada palabra con su correspondiente significado​</h2>
+      </div>
+
+    </section>
+    <div class="terminos-definiciones">
+      <div class="terminos">
+        <ul>
+          <li>Variable​</li>
+          <li>Constante​</li>
+          <li>Lógica de Programación​</li>
+          <li>Algoritmo</li>
+        </ul>
+      </div>
+
+      <div class="definiciones">
+        <ul>
+          <li>Posee un dato definido al inicio del <br>
+            programa y no podrá ser alterado
+            ​</li>
+          <li>Es la propia secuencia de instrucciones para <br>
+            la ejecución de una tarea.​
+          </li>
+          <li>Es un espacio para almacenar un tipo de <br>
+            dato que puede ser modificado cuando sea <br>
+            necesario
+            ​</li>
+          <li>
+            Utilizada para desarrollar instrucciones en <br>
+            una secuencia para lograr determinado <br>
+            objetivo.​
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <section class="modulo2">
+    <div class="modulo2-parte1">
+      <div class="titulos-modulo2">
+        <h1>NIVEL BÁSICO​</h1>
+        <h2>Módulo 2: Resolución de Problemas mediante el Razonamiento Lógico​</h2>
+      </div>
+      <p class="descripcion1">
+        El razonamiento es la facultad que <br>
+        tiene el ser humano de resolver <br>
+        problemas, poder evaluar opciones y <br>
+        elegir la más adecuada por medio del pensamiento lógico, este tipo <br>
+        de pensamiento se puede clasificar en <br>
+        dos tipos:​
+      </p>
+
+      <p class="definicion1">
+        DEDUCTIVO: Ya que parte de <br>
+        ideas generales para llegar a <br>
+        conclusiones particulares.
+      </p>
+
+      <p class="definicion2">
+        ANALÍTICO: Ya que allí se <br>
+        desglosan las ideas para <br>
+        facilitar su entendimiento y el <br>
+        organizar para ordenar las ideas para analizarlas una <br>
+        detrás de otras.
+      </p>
+    </div>
+  </section>
+
+  <section class="abstraccion">
+    <div class="titulos-abstraccion">
+      <h1>Nivel Básico</h1>
+      <h2>Módulo 2: Resolución de Problemas mediante el Razonamiento Lógico​</h2>
+      <h3>Abstracción y Detección de Variables​</h3>
+    </div>
+    <div class="abstraccion-grid">
+      <p class="descripcion-abstraccion">
+        El pensamiento lógico <br />
+        facilita la abstracción del <br /> problema, es decir, la <br /> identificación de la <br /> información
+        relevante
+        de <br /> una situación por resolver.​
+      </p>
+
+      <p class="ejemplo-abstraccion">
+        Por ejemplo: Información de un estudiante de <br /> un centro educativo ya que se requiere el <br /> control de
+        un
+        sistema escolar
+        para tener <br /> información del estudiante, y por medio de la <br /> abstracción se tiene información como:
+        <br />
+        Nombre completo, edad,
+        año escolar, nombre <br /> del profesor, grupo y calificación obtenida etc ​
+      </p>
+
+    </div>
+    </div>
+  </section>
+
+  <section class="pasos-abstraccion">
+    <div class="titulo-pasos">
+      <h1>Nivel Básico</h1>
+      <h2>Módulo 2: Resolución de Problemas mediante el Razonamiento Lógico​</h2>
+      <h3>Abstracción y Detección de Variables​</h3>
+    </div>
+
+    <p class="descripcion-pasos">
+      Pasos para la abstracción y Detección de Variables
+    </p>
+
+    <div class="contenedor-pasos">
+      <div class="pasos">
+        <h3>Identificación de la necesidad</h3>
+        <h3>Abstraer los componentes</h3>
+        <h3>Identificación de restricciones​</h3>
+      </div>
+
+      <div class="descripcion-pasos">
+        <p>
+          Indagar ¿Cuál es la necesidad de resolver en el ejemplo anterior se requiere de un Sistema que lleve el
+          control del desempeño académico de un estudiante​
+        </p>
+        <p>
+          Abstraer los componentes elementales del problema y determinar las variables en el caso del ejemplo del Centro
+          Educativo son los datos de cada estudiante y de las asignaturas​
+        </p>
+        <p>
+          Identificar si existen restricciones para poder resolver el problema, siguiendo con el ejemplo del centro
+          educativo el envío del informe de las calificaciones a los padres de familia puede estar condicionado con el
+          pago de matricula​
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sopa-letras">
+    <div class="enunciado-sopa">
+      <h1>Módulo 2: Resolución de Problemas mediante el Razonamiento Lógico​</h1>
+      <h2>ACTIVIDAD</h2>
+      <h3>
+        De la siguiente sopa de letras encontrar las siguientes palabras: ​
+        Deductivo, Analítico, Abstracción y Detección
+      </h3>
+    </div>
+    <table class="tabla-sopa">
+      <tr>
+        <td>D</td>
+        <td>E</td>
+        <td>D</td>
+        <td>U</td>
+        <td>C</td>
+        <td>T</td>
+        <td>I</td>
+        <td>V</td>
+        <td>O</td>
+        <td>C</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>A</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>N</td>
+        <td>A</td>
+        <td>L</td>
+        <td>I</td>
+        <td>T</td>
+        <td>I</td>
+        <td>C</td>
+        <td>O</td>
+        <td>L</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>S</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>A</td>
+        <td>B</td>
+        <td>S</td>
+        <td>T</td>
+        <td>R</td>
+        <td>A</td>
+        <td>C</td>
+        <td>C</td>
+        <td>I</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>R</td>
+      </tr>
+      <tr>
+        <td>O</td>
+        <td>N</td>
+        <td>D</td>
+        <td>E</td>
+        <td>T</td>
+        <td>E</td>
+        <td>C</td>
+        <td>C</td>
+        <td>I</td>
+        <td>Ó</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>B</td>
+      </tr>
+      <tr>
+        <td>N</td>
+        <td>L</td>
+        <td>O</td>
+        <td>I</td>
+        <td>C</td>
+        <td>A</td>
+        <td>R</td>
+        <td>Z</td>
+        <td>O</td>
+        <td>N</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>D</td>
+      <tr>
+        <td>T</td>
+        <td>U</td>
+        <td>V</td>
+        <td>W</td>
+        <td>X</td>
+        <td>Y</td>
+        <td>Z</td>
+        <td>A</td>
+        <td>B</td>
+        <td>S</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>Q</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>S</td>
+        <td>T</td>
+        <td>R</td>
+        <td>A</td>
+        <td>C</td>
+        <td>T</td>
+        <td>O</td>
+        <td>N</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>P</td>
+        <td>T</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>D</td>
+        <td>W</td>
+        <td>R</td>
+        <td>A</td>
+        <td>i</td>
+        <td>T</td>
+        <td>L</td>
+        <td>N</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>L</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>E</td>
+        <td>V</td>
+        <td>O</td>
+        <td>R</td>
+        <td>A</td>
+        <td>C</td>
+        <td>T</td>
+        <td>O</td>
+        <td>N</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>I</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>B</td>
+        <td>S</td>
+        <td>T</td>
+        <td>R</td>
+        <td>A</td>
+        <td>X</td>
+        <td>T</td>
+        <td>O</td>
+        <td>N</td>
+        <td>W</td>
+        <td>S</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>Z</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>S</td>
+        <td>T</td>
+        <td>R</td>
+        <td>W</td>
+        <td>C</td>
+        <td>T</td>
+        <td>O</td>
+        <td>N</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>C</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>I</td>
+        <td>R</td>
+        <td>R</td>
+        <td>A</td>
+        <td>C</td>
+        <td>T</td>
+        <td>T</td>
+        <td>I</td>
+        <td>V</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>V</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>S</td>
+        <td>T</td>
+        <td>R</td>
+        <td>A</td>
+        <td>C</td>
+        <td>T</td>
+        <td>O</td>
+        <td>N</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>E</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>F</td>
+        <td>T</td>
+        <td>R</td>
+        <td>E</td>
+        <td>C</td>
+        <td>T</td>
+        <td>O</td>
+        <td>N</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>K</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>E</td>
+        <td>V</td>
+        <td>O</td>
+        <td>L</td>
+        <td>U</td>
+        <td>T</td>
+        <td>I</td>
+        <td>V</td>
+        <td>O</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>J</td>
+      </tr>
+      <tr>
+        <td>A</td>
+        <td>B</td>
+        <td>X</td>
+        <td>T</td>
+        <td>K</td>
+        <td>A</td>
+        <td>C</td>
+        <td>T</td>
+        <td>O</td>
+        <td>N</td>
+        <td>W</td>
+        <td>K</td>
+        <td>P </td>
+        <td>S</td>
+        <td>V</td>
+        <td>O</td>
+        <td>S</td>
+      </tr>
+      <tr>
+
+      </tr>
+      <tr>
+
+      </tr>
+      </tr>
+    </table>
+  </section>
+
+  <section class="modulo3">
+    <div class="titulos-modulo3">
+      <h1>NIVEL BÁSICO</h1>
+      <h2>Módulo 3: Diseño de Algoritmos​</h2>
+      <p>Un algoritmo consiste en una serie de instrucciones detalladas finitas y escritas en un lenguaje cotidiano <br />
+        sobre cómo
+        resolver un problema o ejecutar una acción por medio del razonamiento lógico.​</p>
+    </div>
+    <div class="cualitativos-cuantitativos">
+      <div class="cualitativos">
+        <p>Cualitativos: Consiste en listar <br /> los pasos a seguir en <br /> actividades diarias cómo por <br /> ejemplo preparar una
+          bebida​.</p>
+      </div>
+      <div class="cuantitativos">
+        <p>Cuantitativos: Implican <br /> realizar cálculos numéricos por ejemplo obtener la raíz <br /> cuadrada de un número.​</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="entradas-acciones-algoritmos">
+    <div class="titulos-eaa">
+      <h1>NIVEL BÁSICO​</h1>
+      <h2>Módulo 3: Diseño de Algoritmos​</h2>
+      <p>Para entender mejor un algoritmo se puede comparar con las actividades o acciones que ejecutamos a <br /> diario como por
+        ejemplo el cepillado de los dientes. Para definir mejor nuestro algoritmo se puede clasificar <br /> en los siguientes
+        elementos:​</p>
+    </div>
+
+    <div class="contenedoreaa">
+      <div class="cuadros-eaa">
+        <div class="cuadro1">
+          ENTRADAS
+        </div>
+        <div class="cuadro2">
+          ACCIONES
+        </div>
+        <div class="cuadro3">
+          RESULTADOS
+        </div>
+      </div>
+    
+      <div class="descripciones-cuadroseaa">
+        <div class="decripcioneaa1">
+          <p>Elementos que son necesarios <br /> para realizar una acción. En el <br /> ejemplo de cepillarse los dientes
+            <br /> se requiere insumos
+            como el <br /> cepillo de dientes, la crema <br /> dental y un vaso con agua​</p>
+        </div>
+        <div class="decripcioneaa2">
+          <p>Consiste en la redacción de las <br /> acciones y enumerar cada <br /> instrucción. En el ejemplo de <br /> cepillarse los dientes:​ <br />
+    
+            1. Tomar la pasta dental​ <br />
+    
+            2. Abrir el producto​ <br />
+    
+            3. Colocar la tapa de la crema en algún lugar etc​. <br /> </p>
+        </div>
+        <div class="decripcioneaa3">
+          <p>Consiste en analizar que se <br /> pretende obtener. En el ejemplo <br /> de cepillarse los dientes, es <br /> obtener dientes sin
+            residuos de <br /> comida.​​</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="crucigrama">
+    <!DOCTYPE html>
+<html>
+<head>
+  <title>Crucigrama</title>
+  <style>
+    /* Estilos aquí */
+  </style>
+</head>
+<body>
+  <div class="contenedor-crucigrama">
+    <div class="titulo-crucigrama">Crucigrama</div>
+    <div class="grid">
+      <div class="celda"><span class="numero">1</span></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      
+      <div class="celda"><span class="numero">2</span></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      
+      <div class="celda"><span class="numero">3</span></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      
+      <div class="celda"><span class="numero">4</span></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      
+      <div class="celda"><span class="numero">5</span></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+      <div class="celda"></div>
+    </div>
+  </div>
+  </section>
+
+  <section class="modulo4">
+    <div class="titulos-modulo4">
+      <h1>NIVEL BÁSICO​</h1>
+      <h2>Módulo 4: Uso de Operadores Aritméticos​</h2>
+      <p>Los operadores aritméticos son los que permiten realizar operaciones matemáticas como son la suma, resta, <br />
+        multiplicación, división y potencia entre otras. Y se utilizan en algoritmos cuantitativos para encontrar la <br /> solución
+        a un problema.​</p>
+    </div>
+
+    <div class="cuadroOperadores">
+      <h3 class="suma">
+        <p>SUMA +</p>
+      </h3>
+      <h3 class="resta">
+        <p>RESTA -</p>
+      </h3>
+      <h3 class="multiplicacion">
+        <p>MULTIPLICACIÓN X</p>
+      </h3>
+      <h3 class="division">
+        <p>DIVISIÓN /</p>
+      </h3>
+    </div>
+  </section>
+
+  <section class="calculos">
+    <div class="titulos-calculos">
+      <h1>NIVEL BÁSICO</h1>
+      <h2>Módulo 4: Uso de Operadores Aritméticos​</h2>
+      <p>
+        Al momento de realizar estas operaciones es frecuente agruparlas en uno o más paréntesis para poder <br />
+        facilitar su cálculo. Además que por medio de este símbolo los paréntesis () se indica que las operaciones <br />
+        deben realizarse de izquierda a derecha, respetando la prioridad de ejecución de los operadores que es la <br />
+        siguiente:
+      ​</p>
+    </div>
+
+    <div class="ejemplos-calculos">
+      <h2>Cálculo de Potencias​. 5^3= 5x5x5</h2>
+      <h2>Multiplicación y División (125(12x2))/3 <br />
+      (125(24))/3​</h2>
+      <h2>Obtención del módulo o residuo​ <br/> 9/9=81%0​</h2>
+      <h2>Suma y Resta <br /> (124+12) + (84-11) + (1000) + (0) = 136 + 73 + 1000 + 0 = 1209 ​</h2>
+    </div>
+  </section>
+
+  <section class="actividad-operacion">
+    <div class="activida-sumas">
+      <h1>Módulo 4: Uso de Operadores Aritméticos​</h1>
+      <h2>ACTIVIDAD:​</h2>
+      <p>Resolver la siguiente Operación:​</p>
+    </div>
+
+    <div class="operacion">
+      <p>X = (124 + 12) + (80 - 11) + (5<sup>3</sup>(12*2)) / 3 + (81 mod 9)</p>
+    </div>
+
+    <form class="respuesta-actividad">
+      <label for="respuesta" class="label-respuesta">Respuesta:</label>
+      <input type="number" id="respuesta" name="respuesta" class="input-respuesta">
+    </form>
+    
+  </section>
+
+  <section class="modulo5">
+    <div class="titulos-modulo5">
+      <h1>NIVEL BÁSICO​</h1>
+      <h2>Módulo 5: Operadores Lógicos​</h2>
+      <p>
+        Los operadores lógicos se utilizan para evaluar dos o más expresiones que utilizan operadores relacionales <br />
+        para determinar si la expresión en general es verdadera o falsa. ​<br />
+        Los operadores lógicos son:​
+      </p>
+    </div>
+  
+    <div class="operadores-logicos">
+      <div class="operador-logico">
+        <h4>Operador</h4>
+        <p>AND</p>
+      </div>
+      <div class="operador-logico">
+        <h4>Simbolización</h4>
+        <p>&&</p>
+      </div>
+      <div class="operador-logico">
+        <h4>Operador</h4>
+        <p>OR</p>
+      </div>
+      <div class="operador-logico">
+        <h4>Simbolización</h4>
+        <p>||</p>
+      </div>
+      <div class="operador-logico">
+        <h4>Operador</h4>
+        <p>NOT</p>
+      </div>
+      <div class="operador-logico">
+        <h4>Simbolización</h4>
+        <p>!=</p>
+      </div>
+    </div>
+
+    <div class="expresion">
+      <h1>Expresión Ejemplo:​</h1> <br />
+      <h2>((A < B) OR (A > C)) AND ((A == C) NOT (A != B))​</h2>
+    </div>
+  </section>
+
+  <section class="conjuncion">
+    <div class="titulos-conjuncion">
+      <h1>NIVEL BÁSICO​</h1>
+      <h2>Módulo 5: Operadores Lógicos</h2>
+      <h3>Entre las Reglas de los Operadores Lógicos encontramos:​</h3>
+      <p>1 Conjunción o AND: Donde si las condiciones son verdaderas el resultado final también será verdadero, sin embargo <br />
+        hay que tener en cuenta que si una de las condiciones es falsa el resultado final será falso​</p>
+    </div>
+
+    <div class="simbolizacion">
+        <p>1. Conjunción o AND <br /> Simbolización​ &&</p>
+    </div>
+
+    <div class="cuadros-conjuncion1">
+      <p>EJEMPLO: SI SE PAGA LA MATRICULA = PAGADA <span></span>​</p>
+      <p>RESULTADO: ENTREGA DE NOTA FINAL<span></span>​</p>
+      <p>EJEMPLO: SI LA ASISTENCIA > 60%​​<span></span>​</p>     
+
+      <div class="ejemplo-conjuncion">
+        <h4>Ejemplo:​ <br /> 
+
+          Si en un ente educativo mientras un <br />
+          estudiante tenga paga la matrícula y haya <br /> asistido al 60% el Sistema le enviará el <br /> 
+          reporte de la Entrega de Notas Finales, <br /> pero, si una de las condiciones no se <br /> cumple el sistema le negará la generación <br />
+          del Reporte final de entrega de notas y el <br /> estudiante no podrá ver dicho reporte​</h4>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="disyuncion">
+    <div class="titulos-disyuncion">
+      <h1>NIVEL BÁSICO​</h1>
+      <h2>Módulo 5: Operadores Lógicos</h2>
+      <h3>Entre las Reglas de los Operadores Lógicos encontramos:​</h3>
+      <p>2. Disyunción u OR: Donde evalúa cada expresión y si una de las condiciones es verdadera el resultado final también <br />
+        será verdadero, sin embargo hay que tener en cuenta que si todas de las condiciones es falsa el resultado final será <br />
+        falso​​.</p>
+    </div>
+
+    <div class="simbolizacion">
+        <p>1. Disyunción u OR​ <br /> Simbolización​ ││​</p>
+    </div>
+
+    <div class="cuadros-disyuncion1">
+      <p>EJEMPLO: ENVÍO = PRINCIPAL​ <span></span>​</p>
+      <p>RESULTADO: ENTREGA DE NOTA FINAL<span></span>​</p>
+      <p>EJEMPLO: ENVÍO = ANULADO​​<span></span>​</p>     
+
+      <div class="ejemplo-disyuncion">
+        <h4>Ejemplo:​ <br />
+          Si en un ente educativo el reporte final <br /> 
+          puede ser enviado a través del correo <br /> 
+          electrónico al tutor principal, pero no al <br /> 
+          tutor suplente, el Sistema no permite <br />
+          enviar dicho reporte a ambos​.
+      </div>
+  </section>
+  
+  <section class="negacion">
+    <div class="titulos-negacion">
+      <h1>NIVEL BÁSICO​</h1>
+      <h2>Módulo 5: Operadores Lógicos</h2>
+      <h3>Entre las Reglas de los Operadores Lógicos encontramos:​</h3>
+      <p>3. Negación o NOT: Este operador cambia el valor final de una <br /> 
+         expresión por su contrario, es decir, si tras evaluar una expresión en general se determina que es verdadera y se le aplica el operador “NOT” entonces el resultado final
+         será <br /> falso.</p>
+    </div>
+
+    <div class="simbolizacion">
+        <p>1. Negación o NOT​​ <br /> Simbolización​ !=​​</p>
+    </div>
+
+    <div class="cuadros-negacion1">
+      <p>EJEMPLO: ENVÍO = PRINCIPAL​ <span></span>​</p>
+      <p>RESULTADO: ENTREGA DE NOTA FINAL<span></span>​</p>
+      <p>EJEMPLO: ENVÍO = ANULADO​​<span></span>​</p>     
+
+      <div class="ejemplo-negacion">
+        <h4>Ejemplo:​ <br />
+          Si en un ente educativo el reporte final <br /> 
+          puede ser enviado a través del correo <br /> 
+          electrónico al tutor principal, pero no al <br /> 
+          tutor suplente, el Sistema no permite <br />
+          enviar dicho reporte a ambos​.
+      </div>
+  </section>
+
+  <section class="operadores-logicos-presente">
+    <div class="titulos-operadores-logicos">
+      <h1>NIVEL BÁSICO​</h1>
+      <h2>Módulo 5: Operadores Lógicos</h2>
+      <h3>Entre las Reglas de los Operadores Lógicos encontramos:​</h3>
+      <p>
+        Tener presente que los operadores lógicos en conjunto con los operadores aritméticos y los operadores relacionales <br />
+        son utilizados para validar expresiones complejas en los programas y aplicaciones que se utilizan diariamente
+      ​</p>
+    </div>
+    <div class="circulo-simbolizacion">
+      <h1>PROGRAMAS <br /> APLICATIVOS</h1>
+    </div>
+    <section class="cuadrosSimbolizacion">
+      <div class="cuadro-simbolizacion1">
+        <h1>Operadores Lógicos</h1>
+        <p>NOT (!=)</p>
+        <p>AND (&&)</p>
+        <p>NOT (||)</p>
+      </div>
+      <div class="cuadro-simbolizacion2">
+        <h1>Operadores Aritméticos</h1>
+        <p>Suma (+)</p>
+        <p>Resta (-)</p>
+        <p>Multiplicación (*)</p>
+        <p>División (/)</p>
+      </div>
+      <div class="cuadro-simbolizacion3">
+        <h1>Operadores Relacionales</h1>
+        <p>Mayor Que (>)</p>
+        <p>Menor Que (<)</p>
+        <p>Mayor Igual Que (>=)</p>
+        <p>Menor Igual Que (>=)</p>
+        <p>Igual (==)</p>
+      </div>
+    </section>
+
+  </section>
+
+  <section class="actividad-completar-campos">
+    <div class="titulos-actividad-completar-campos">
+      <h1>ACTIVIDAD:​</h1>
+      <h2>Completar los campos:</h2>
+    </div>
+
+    <div class="actividad-campos">
+      <h1 class="punto1-campos">Disyunción o <input type="input"></input> se simboliza <input type="input"></input>​</h1>
+      <h1 class="punto2-campos">Conjunción o <input type="input"></input> se simboliza <input type="input"></input>​</h1>
+      <h1 class="punto3-campos">Negación u <input type="input"></input> se simboliza <input type="input"></input>​​</h1>
+    </div>
+  </section>
+
+  <section class="modulo6">
+    <div class="titulos-modulo6">
+      <h1>NIVEL BÁSICO​</h1>
+      <h2>Módulo 6: Diagrama de Flujo de Datos (DFD)​</h2>
+      <p>
+        Un Diagrama de Flujo de Datos es la representación gráfica de un algoritmo a través de símbolos que se relacionan <br />
+        entre sí e indican cómo deben ejecutarse las instrucciones para obtener un resultado.​ <br />
+
+        Esta clase de diagrama se caracteriza por tener un solo punto de partida de inicio y fin por diagrama e interpretarse <br />
+        de arriba hacia abajo y de izquierda a derecha​.
+      ​</p>
+    </div>
+    <div class="text-around">
+      <p class="left-text">Interpretación de arriba hacia abajo.​</p>
+      <img src="img/diagrama.png" alt="diagrama">
+      <p class="right-text">Interpretación de izquierda a derecha.​</p>
+    </div>
+  </section>
+
+  <section class="diagrama-flujo">
+    <div class="titulos-diagrama-flujo">
+      <h1>NIVEL BÁSICO​</h1>
+      <h2>Módulo 6: Diagrama de Flujo de Datos (DFD)​</h2>
+      <p>Símbolos para crear un Diagrama de Flujos​</p>
+    </div>
+  </section>
+
+
+  <script src="main.js"></script>
+  <script src="pregunta1.js"></script>
+</body>
+
+</html>
