@@ -1,3 +1,51 @@
+/*Barra de Navegación responsiva*/
+@media screen and (max-width: 768px){
+    .nav__menu {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #222;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        opacity: 0;
+        visibility: hidden;
+        transition: opacity 0.4s, visibility 0.4s;
+        z-index: 1;
+      }
+      .nav__menu li {
+        display: block;
+        margin-bottom: 10px;
+      }
+      .nav__menu li:last-child {
+        margin-bottom: 0;
+      }
+      .nav__menu a {
+        display: inline-block;
+        font-size: 20px;
+        color: #fff;
+        padding: 10px 20px;
+        text-decoration: none;
+        transition: background-color 0.2s;
+      }
+      .nav__menu a:hover {
+        background-color: #444;
+      }
+      .nav__menu--active {
+        display: block;
+        opacity: 1;
+        visibility: visible;
+      }
+      #open-menu-btn {
+        display: block;
+      }
+      #close-menu-btn {
+        display: none;
+      }
+}
+
 #info-programacion {
     text-align: left;
     max-width: 140rem; 
@@ -83,8 +131,6 @@
     display: none;
 }
 
-
-
 #seccion-oculta h2 {
     color: #000;
     font-size: 2rem;
@@ -120,6 +166,67 @@
 .oculto {
     display: none;
 }
+
+/*info-programación responsivo*/
+
+/* Para dispositivos móviles */
+@media (max-width: 768px) {
+    #info-programacion {
+      max-width: 100%;
+      padding: 20px;
+    }
+  
+    #info-programacion h1 {
+      font-size: 2rem;
+    }
+  
+    #info-programacion h2 {
+      font-size: 1.5rem;
+    }
+  
+    #formulario {
+      flex-direction: column;
+    }
+  
+    #info-programacion input[type="text"] {
+      width: 100%;
+    }
+  }
+  
+  /* Para tabletas y pantallas medianas */
+@media (min-width: 768px) and (max-width: 992px) {
+    #info-programacion {
+      max-width: 80%;
+    }
+  
+    #info-programacion h1 {
+      font-size: 3rem;
+    }
+  
+    #info-programacion h2 {
+      font-size: 2rem;
+    }
+}
+  
+  /* Para pantallas grandes */
+ @media (min-width: 992px) {
+    #info-programacion {
+      max-width: 70%;
+    }
+  
+    #formulario {
+      flex-direction: row;
+    }
+  
+    #info-programacion input[type="text"] {
+      width: 60%;
+    }
+  
+    #info-programacion button[type="submit"] {
+      width: 30%;
+    }
+}
+  
 
 .container__algoritmo {
     display: flex;
@@ -184,6 +291,49 @@
     margin-left: 1rem;
 }
 
+/*Container algoritmo responsivo*/
+
+@media screen and (max-width: 768px) {
+    .container__algoritmo {
+      flex-direction: column;
+      padding: 40px;
+    }
+    
+    .header__left {
+      margin-left: 0;
+      margin-bottom: 40px;
+    }
+    
+    .header__right {
+      margin-left: 0;
+    }
+  }
+    
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .header__left {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    
+    .header__right {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+}
+    
+@media screen and (min-width: 1025px) {
+    .header__left {
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+    
+    .header__right {
+      margin-left: 60px;
+      margin-right: 60px;
+    }
+}
+  
+
 .conceptos_basicos {
     background-color: #1768AC;
 }
@@ -239,6 +389,62 @@
     margin-top: 2rem;
     text-align: center;
 }
+
+/*conceptos_basicos responsivos*/
+
+@media only screen and (max-width: 768px) {
+
+    .conceptos_basicos h1 {
+    font-size: 1.5rem;
+    padding: 1rem;
+    }
+    
+    .variable-constante {
+    flex-direction: column;
+    padding: 1rem;
+    }
+    
+    .contenedor-variable-constante {
+    margin: 0.5rem 0;
+    width: 90%;
+    max-width: none;
+    }
+    
+    }
+    
+    @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    
+    .conceptos_basicos h1 {
+    font-size: 1.8rem;
+    padding: 1.5rem;
+    }
+    
+    .variable-constante {
+    padding: 1.5rem;
+    }
+    
+    .contenedor-variable-constante {
+    width: 60%;
+    }
+    
+    }
+    
+    @media only screen and (min-width: 1025px) {
+    
+    .conceptos_basicos h1 {
+    font-size: 2rem;
+    padding: 2rem;
+    }
+    
+    .variable-constante {
+    padding: 2rem;
+    }
+    
+    .contenedor-variable-constante {
+    width: 45%;
+    }
+    
+    }
 
 .actividad {
     background-color: #2541B2;
@@ -351,6 +557,116 @@ ul {
     transform: scale(1.1);
 }
 
+/*Actividad responsiva*/
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+
+    .actividad {
+      padding: 10px;
+    }
+  
+    .actividad h1 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+  
+    .titulo-actividad h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+  
+    .titulo-actividad h2 {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+  
+    .terminos-definiciones {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .terminos li, .definiciones li {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+      padding: 10px;
+      width: 100%;
+    }
+  
+  }
+  
+  /* Estilos para tabletas y pantallas medianas */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  
+    .actividad {
+      padding: 15px;
+    }
+  
+    .actividad h1 {
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+    }
+  
+    .titulo-actividad h1 {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+  
+    .titulo-actividad h2 {
+      font-size: 1.5rem;
+      margin-bottom: 25px;
+    }
+  
+    .terminos-definiciones {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .terminos li, .definiciones li {
+      font-size: 1.3rem;
+      margin-bottom: 15px;
+      padding: 10px;
+      width: 80%;
+    }
+  
+  }
+  
+  /* Estilos para pantallas grandes */
+  @media only screen and (min-width: 1025px) {
+  
+    .actividad {
+      padding: 20px;
+    }
+  
+    .actividad h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    .titulo-actividad h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+  
+    .titulo-actividad h2 {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+  
+    .terminos-definiciones {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .terminos li, .definiciones li {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      padding: 10px;
+      width: 700px;
+    }
+  
+  }
+  
+
 .modulo2 {
     background-color: #03256C;
     color: #fff;
@@ -414,6 +730,8 @@ ul {
   transition: background-color 0.2s;
 }
 
+/*Fin modulo 2*/
+
 .abstraccion {
     background-color: #2541B2;
     padding: 50px;
@@ -470,6 +788,34 @@ transform: translateY(-10px);
     background-color: #1B2E5F;
     color: #fff;
 }
+
+@media (max-width: 768px) {
+    .abstraccion-grid {
+    grid-template-columns: 1fr;
+    }
+    }
+    
+@media (max-width: 480px) {
+    .abstraccion {
+    padding: 30px;
+}
+    
+.titulos-abstraccion h1 {
+    font-size: 2.5rem;
+}
+    
+.abstraccion-grid {
+    grid-gap: 20px;
+}
+    
+.descripcion-abstraccion,
+.ejemplo-abstraccion {
+    font-size: 1rem;
+    padding: 15px;
+}
+}
+
+/*-----------------------------*/
 
 .pasos-abstraccion {
     background-color: #1768AC;
@@ -551,6 +897,57 @@ transform: translateY(-10px);
   transition: all 0.2s ease-in-out;
 }
 
+/*descripcion-pasos responsivo*/
+
+@media (max-width: 768px) {
+    .contenedor-pasos {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .descripcion-pasos p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .pasos h3::before {
+        right: auto;
+        left: -10px;
+        border-right: none;
+        border-left: 10px solid #FF6B6B;
+    }
+}
+
+/* Estilos para pantalla mediana (entre 768px y 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contenedor-pasos {
+        height: auto;
+    }
+}
+
+/* Estilos para pantalla grande (a partir de 1024px) */
+@media (min-width: 1024px) {
+    .pasos-abstraccion {
+        height: auto;
+    }
+
+    .titulo-pasos {
+        max-width: 1024px;
+        margin: 0 auto 2rem;
+        padding: 0 20px;
+    }
+
+    .contenedor-pasos {
+        height: 60vh;
+    }
+
+    .descripcion-pasos p {
+        margin-left: 20px;
+        text-align: left;
+    }
+}
+  
+
 .sopa-letras {
     background-color: #03256C;
 }
@@ -617,6 +1014,8 @@ td {
     text-align: center;
 }
 
+
+
 .modulo3 {
     background-color: #006D77;
 }
@@ -675,6 +1074,26 @@ td {
     position: absolute; 
     top: 50%; 
     margin-top: -20px;
+}
+
+/*modulo3-1 responsivo*/
+
+@media only screen and (max-width: 600px) {
+    .titulos-modulo3 {
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .titulos-modulo3 {
+        margin-left: 5rem;
+    }
+}
+
+@media only screen and (min-width: 901px) {
+    .titulos-modulo3 {
+        margin-left: 10rem;
+    }
 }
 
 .entradas-acciones-algoritmos {
