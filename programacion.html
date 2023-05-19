@@ -9,11 +9,13 @@
   <link rel="stylesheet" href="css/programacion.css" />
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
   <nav>
     <div class="container nav__container">
+      <a href="index.html"><img style="width: 5rem; background-color: white;" src="img/logo ucc.png" alt="UCC"></a>
       <a href="index.html">
         <h4>Programación & Base de Datos</h4>
       </a>
@@ -51,18 +53,22 @@
       lógica de programación es <br />
       el mejor camino y aquí te ayudaremos a encontrarlo.
     </p>
+    <audio id="audio-correcto">
+      <source src="audios/correct.wav" type="audio/mp3">
+    </audio>
     <section id="seccion-oculta" style="display: none">
       <h2>¡Respuesta correcta!</h2>
       <p>
         Lógica es la técnica utilizada para desarrollar instrucciones en una
         secuencia para lograr determinado objetivo.​
       </p>
+      <i class="fa-sharp fa-solid fa-check fa-bounce" style="font-size: 3rem; color: green; margin-right: 50px;"></i> 
       <button id="boton-cierre" type="button">Cerrar</button>
     </section>
     <form id="formulario">
       <label for="respuesta">¿Qué es Lógica de Programación?​</label>
       <input type="text" id="respuesta" name="respuesta" />
-      <button id="enviar" type="submit">Enviar</button>
+      <button id="enviar" type="submit" onClick="comprobar()">Enviar</button>
     </form>
   </section>
 
@@ -129,40 +135,38 @@
         <h1>Actividad</h1>
         <h2>Unir cada palabra con su correspondiente significado​</h2>
       </div>
-
     </section>
     <div class="terminos-definiciones">
       <div class="terminos">
         <ul>
-          <li>Variable​</li>
-          <li>Constante​</li>
-          <li>Lógica de Programación​</li>
-          <li>Algoritmo</li>
+          <li class="termino seleccionable">Variable<span class="check-icon"></span></li>
+          <li class="termino seleccionable">Constante<span class="check-icon"></span></li>
+          <li class="termino seleccionable">Lógica de Programación<span class="check-icon"></span></li>
+          <li class="termino seleccionable">Algoritmo<span class="check-icon"></span></li>
         </ul>
       </div>
-
       <div class="definiciones">
         <ul>
-          <li>Posee un dato definido al inicio del <br>
-            programa y no podrá ser alterado
-            ​</li>
-          <li>Es la propia secuencia de instrucciones para <br>
-            la ejecución de una tarea.​
+          <li class="definicion">Posee un dato definido al inicio del <br>
+            programa y no podrá ser alterado<span class="check-icon"></span>
           </li>
-          <li>Es un espacio para almacenar un tipo de <br>
+          <li class="definicion">Es la propia secuencia de instrucciones para <br>
+            la ejecución de una tarea.​<span class="check-icon"></span>
+          </li>
+          <li class="definicion">Es un espacio para almacenar un tipo de <br>
             dato que puede ser modificado cuando sea <br>
-            necesario
-            ​</li>
-          <li>
+            necesario<span class="check-icon"></span>
+          </li>
+          <li class="definicion">
             Utilizada para desarrollar instrucciones en <br>
             una secuencia para lograr determinado <br>
-            objetivo.​
+            objetivo.​<span class="check-icon"></span>
           </li>
         </ul>
       </div>
     </div>
   </div>
-
+  
   <section class="modulo2">
     <div class="modulo2-parte1">
       <div class="titulos-modulo2">
@@ -267,318 +271,8 @@
         Deductivo, Analítico, Abstracción y Detección
       </h3>
     </div>
-    <table class="tabla-sopa">
-      <tr>
-        <td>D</td>
-        <td>E</td>
-        <td>D</td>
-        <td>U</td>
-        <td>C</td>
-        <td>T</td>
-        <td>I</td>
-        <td>V</td>
-        <td>O</td>
-        <td>C</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>A</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>N</td>
-        <td>A</td>
-        <td>L</td>
-        <td>I</td>
-        <td>T</td>
-        <td>I</td>
-        <td>C</td>
-        <td>O</td>
-        <td>L</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>S</td>
-      </tr>
-      <tr>
-        <td>B</td>
-        <td>A</td>
-        <td>B</td>
-        <td>S</td>
-        <td>T</td>
-        <td>R</td>
-        <td>A</td>
-        <td>C</td>
-        <td>C</td>
-        <td>I</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>R</td>
-      </tr>
-      <tr>
-        <td>O</td>
-        <td>N</td>
-        <td>D</td>
-        <td>E</td>
-        <td>T</td>
-        <td>E</td>
-        <td>C</td>
-        <td>C</td>
-        <td>I</td>
-        <td>Ó</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>B</td>
-      </tr>
-      <tr>
-        <td>N</td>
-        <td>L</td>
-        <td>O</td>
-        <td>I</td>
-        <td>C</td>
-        <td>A</td>
-        <td>R</td>
-        <td>Z</td>
-        <td>O</td>
-        <td>N</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>D</td>
-      <tr>
-        <td>T</td>
-        <td>U</td>
-        <td>V</td>
-        <td>W</td>
-        <td>X</td>
-        <td>Y</td>
-        <td>Z</td>
-        <td>A</td>
-        <td>B</td>
-        <td>S</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>Q</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>B</td>
-        <td>S</td>
-        <td>T</td>
-        <td>R</td>
-        <td>A</td>
-        <td>C</td>
-        <td>T</td>
-        <td>O</td>
-        <td>N</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>P</td>
-        <td>T</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>B</td>
-        <td>D</td>
-        <td>W</td>
-        <td>R</td>
-        <td>A</td>
-        <td>i</td>
-        <td>T</td>
-        <td>L</td>
-        <td>N</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>L</td>
-      </tr>
-      <tr>
-        <td>D</td>
-        <td>E</td>
-        <td>V</td>
-        <td>O</td>
-        <td>R</td>
-        <td>A</td>
-        <td>C</td>
-        <td>T</td>
-        <td>O</td>
-        <td>N</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>I</td>
-      </tr>
-      <tr>
-        <td>C</td>
-        <td>B</td>
-        <td>S</td>
-        <td>T</td>
-        <td>R</td>
-        <td>A</td>
-        <td>X</td>
-        <td>T</td>
-        <td>O</td>
-        <td>N</td>
-        <td>W</td>
-        <td>S</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>Z</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>B</td>
-        <td>S</td>
-        <td>T</td>
-        <td>R</td>
-        <td>W</td>
-        <td>C</td>
-        <td>T</td>
-        <td>O</td>
-        <td>N</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>C</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>B</td>
-        <td>I</td>
-        <td>R</td>
-        <td>R</td>
-        <td>A</td>
-        <td>C</td>
-        <td>T</td>
-        <td>T</td>
-        <td>I</td>
-        <td>V</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>V</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>B</td>
-        <td>S</td>
-        <td>T</td>
-        <td>R</td>
-        <td>A</td>
-        <td>C</td>
-        <td>T</td>
-        <td>O</td>
-        <td>N</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>E</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>B</td>
-        <td>F</td>
-        <td>T</td>
-        <td>R</td>
-        <td>E</td>
-        <td>C</td>
-        <td>T</td>
-        <td>O</td>
-        <td>N</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>K</td>
-      </tr>
-      <tr>
-        <td>D</td>
-        <td>E</td>
-        <td>V</td>
-        <td>O</td>
-        <td>L</td>
-        <td>U</td>
-        <td>T</td>
-        <td>I</td>
-        <td>V</td>
-        <td>O</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>J</td>
-      </tr>
-      <tr>
-        <td>A</td>
-        <td>B</td>
-        <td>X</td>
-        <td>T</td>
-        <td>K</td>
-        <td>A</td>
-        <td>C</td>
-        <td>T</td>
-        <td>O</td>
-        <td>N</td>
-        <td>W</td>
-        <td>K</td>
-        <td>P </td>
-        <td>S</td>
-        <td>V</td>
-        <td>O</td>
-        <td>S</td>
-      </tr>
-      <tr>
-
-      </tr>
-      <tr>
-
-      </tr>
-      </tr>
-    </table>
+    <div id="puzzle"></div>
+    <div id="palabras-encontradas"></div>
   </section>
 
   <section class="modulo3">
@@ -645,76 +339,8 @@
     </div>
   </section>
 
-  <section class="crucigrama">
-    <!DOCTYPE html>
-<html>
-<head>
-  <title>Crucigrama</title>
-  <style>
-    /* Estilos aquí */
-  </style>
-</head>
-<body>
-  <div class="contenedor-crucigrama">
-    <div class="titulo-crucigrama">Crucigrama</div>
-    <div class="grid">
-      <div class="celda"><span class="numero">1</span></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      
-      <div class="celda"><span class="numero">2</span></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      
-      <div class="celda"><span class="numero">3</span></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      
-      <div class="celda"><span class="numero">4</span></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      
-      <div class="celda"><span class="numero">5</span></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-      <div class="celda"></div>
-    </div>
-  </div>
-  </section>
+  
+  
 
   <section class="modulo4">
     <div class="titulos-modulo4">
@@ -953,43 +579,168 @@
 
   <section class="actividad-completar-campos">
     <div class="titulos-actividad-completar-campos">
-      <h1>ACTIVIDAD:​</h1>
-      <h2>Completar los campos:</h2>
+      <h1 style="color: black;">ACTIVIDAD:</h1>
+      <h2 style="color: black;">Completar los campos:</h2>
     </div>
 
     <div class="actividad-campos">
-      <h1 class="punto1-campos">Disyunción o <input type="input"></input> se simboliza <input type="input"></input>​</h1>
-      <h1 class="punto2-campos">Conjunción o <input type="input"></input> se simboliza <input type="input"></input>​</h1>
-      <h1 class="punto3-campos">Negación u <input type="input"></input> se simboliza <input type="input"></input>​​</h1>
+      <h1 class="punto1-campos" ">Disyunción o <input type="text" id="input1" placeholder="operador lógico"></input> se simboliza <input type="text" id="input2" placeholder="símbolo"></input></h1>
+      <h1 class="punto2-campos" ">Conjunción o <input type="text" id="input3" placeholder="operador lógico"></input> se simboliza <input type="text" id="input4" placeholder="símbolo"></input></h1>
+      <h1 class="punto3-campos" ">Negación u <input type="text" id="input5" placeholder="operador lógico"></input> se simboliza <input type="text" id="input6" placeholder="símbolo"></input></h1>
     </div>
+    
+    <div class="boton-enviar">
+      <button type="submit" onclick="validarCampos()">Enviar</button>
+    </div>
+    
+    <div id="mensaje-correcto" class="mensaje-correcto" style="display: none;">Correcto</div>
   </section>
 
-  <section class="modulo6">
-    <div class="titulos-modulo6">
-      <h1>NIVEL BÁSICO​</h1>
-      <h2>Módulo 6: Diagrama de Flujo de Datos (DFD)​</h2>
-      <p>
-        Un Diagrama de Flujo de Datos es la representación gráfica de un algoritmo a través de símbolos que se relacionan <br />
-        entre sí e indican cómo deben ejecutarse las instrucciones para obtener un resultado.​ <br />
+  <hr/>
 
-        Esta clase de diagrama se caracteriza por tener un solo punto de partida de inicio y fin por diagrama e interpretarse <br />
-        de arriba hacia abajo y de izquierda a derecha​.
-      ​</p>
-    </div>
-    <div class="text-around">
-      <p class="left-text">Interpretación de arriba hacia abajo.​</p>
-      <img src="img/diagrama.png" alt="diagrama">
-      <p class="right-text">Interpretación de izquierda a derecha.​</p>
-    </div>
-  </section>
+    <section class="modulo6" style="color: white;">
+      <div class="titulos-modulo6">
+        <h1>NIVEL BÁSICO</h1>
+        <h2>Módulo 6: Diagrama de Flujo de Datos (DFD)</h2>
+        <p>
+          Un Diagrama de Flujo de Datos es la representación gráfica de un algoritmo a través de símbolos que se relacionan entre sí e indican cómo deben ejecutarse las instrucciones para obtener un resultado. Esta clase de diagrama se caracteriza por tener un solo punto de partida de inicio y fin por diagrama e interpretarse de arriba hacia abajo y de izquierda a derecha.
+        </p>
+      </div>
+      <div class="text-around">
+        <p class="left-text" style="color: black;">Interpretación de arriba hacia abajo</p>
+        <div class="imagemodulo6">
+          <img src="img/diagrama.png" alt="diagrama">
+        </div>
+        <p class="right-text" style="color: black;">Interpretación de izquierda a derecha</p>
+      </div>
+    </section>
+    <hr/> 
+  
+  
 
   <section class="diagrama-flujo">
     <div class="titulos-diagrama-flujo">
       <h1>NIVEL BÁSICO​</h1>
-      <h2>Módulo 6: Diagrama de Flujo de Datos (DFD)​</h2>
-      <p>Símbolos para crear un Diagrama de Flujos​</p>
+      <h2 style="margin-left: 150px;">Módulo 6: Diagrama de Flujo de Datos (DFD)​</h2>
+      <p>¿Que se usa para crear un diagrama de flujos?​</p>
+    </div>
+    <div class="simbolos">
+      <div class="simbolo">
+        <span class="símbolo-inicio">Inicio</span>
+      </div>
+      <div class="simbolo">
+        <span class="nombre-simbolo">Proceso</span>
+      </div>
+      <div class="simbolo">
+        <span class="nombre-simbolo">Decisión</span>
+      </div>
+      <div class="simbolo">
+        <span class="nombre-simbolo">Conector</span>
+      </div>
+      <div class="simbolo">
+        <span class="nombre-simbolo">Fin</span>
+      </div>
     </div>
   </section>
+
+  <section class="modulo6-pasos-elaboracion">
+    <div class="titulos-modulo6-pasos-elaboracion">
+      <h1>NIVEL BÁSICO​</h1>
+      <h2 >Módulo 6: Diagrama de Flujo de Datos (DFD)​​</h2>
+      <p>Pasos para la elaboración de un Diagrama de Flujo para sumar dos números​​</p>
+    </div>
+    <div class="columnas-pasos">
+      <div class="primera-columna">
+        <h1>Paso 1: Identificar las entradas, salidas de datos​</h1>
+        <h1>Paso 2: Asignarle un título al DFD​</h1>
+        <h1>Paso 3: Dibujar el símbolo de inicio y trazar una línea de flujo vertical para unirlo con el siguiente elemento​</h1>
+        <h1>Paso 4: Dibujar el símbolo de Entrada de Datos y escribir en su interior el nombre de la primera variable y trazar la línea de flujo vertical​</h1>
+      </div>
+      <div class="segunda-columna">
+        <h2>Entradas: Número 1​ <br/>
+                      Número 2​ <br />
+                      Salidas: Suma​ <br />
+                      Proceso​
+        </h2>
+        <h2>Paso 2: Asignarle un título al DFD​</h2>
+        <h2>Paso 3: Dibujar el símbolo de inicio y trazar una línea de flujo vertical para unirlo con el siguiente elemento​</h2>
+        <h2>Paso 4: Dibujar el símbolo de Entrada de Datos y escribir en su interior el nombre de la primera variable y trazar la línea de flujo vertical​</h2>
+      </div>
+      <div class="cuadro-elaboracion">
+        <h3>Paso 5: Dibujar otro símbolo de Entrada de Datos y escribir en su interior el nombre de la segunda variable y trazar la línea de flujo vertical​</h3>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section class="modulo6-pasos-elaboracion2">
+    <div class="titulos-modulo6-pasos-elaboracion2">
+      <div class="titulos-modulo6-pasos-elaboracion">
+        <h1>NIVEL BÁSICO​</h1>
+        <h2 >Módulo 6: Diagrama de Flujo de Datos (DFD)​​</h2>
+        <p>Pasos para la elaboración de un Diagrama de Flujo para sumar dos números​​</p>
+      </div>
+      <div class="columnas-pasos2">
+        <h1>Paso 6: Dibujar el símbolo de proceso y al interior suma el contenido de la variable Número_1 y Número_2</h1>
+        <h1>Paso 7: Dibujar el símbolo de Salida de Datos y escribir en su interior el nombre de la variable que almacena el resultado​​</h1>
+        <h1>Paso 8: Dibujar el símbolo de Fin​</h1>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section class="formulario-final">
+    <h1>EVALUACIÓN FINAL DEL NIVEL BÁSICO DEL CURSO DE LÓGICA DE PROGRAMACIÓN​</h1>
+    <p>Bienvenido a la Evaluación Final del Nivel Básico del Curso de Lógica de Programación. <br />
+       Indicaciones:​ <br />
+       El Formulario está diseñado para máximo 3 intentos​ <br />
+       Las preguntas son con única respuesta​ <br />
+       No olvidar revisar que todas las preguntas estén marcadas​
+    </p>
+    <a href="programacion2.html" target="_blank"><button type="button">Continuar con la siguiente sección</button></a>
+  </section>
+
+  <footer>
+
+    <div class="container footer__container">
+        <div class="footer-1">
+            <a href="index.html" class="footer__logo"><h4>Programación & Base de Datos</h4></a>
+        </div>
+        <div class="footer-2">
+            <h4>Links</h4>
+            <ul class="permaLinks">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="baseDatos.html">Base de Datos</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="programacion.html">Programación</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-socials">
+            <li>
+                <a href="#"><i class="uil uil-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="uil uil-instagram-alt"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="uil uil-linkedin-alt"></i></a>
+            </li>
+        </div>
+
+        
+    </div>
+    <div class="footer__copyright">
+        <small>&copy; Programación & Base de Datos!!</small>
+        <small>Diseñado por: Jhonatan Otalvaro & Paola Caicedo.</small>
+    </div>
+
+</footer>
 
 
   <script src="main.js"></script>

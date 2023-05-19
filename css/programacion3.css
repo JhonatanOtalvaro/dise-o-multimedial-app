@@ -1,0 +1,79 @@
+.Avanzado {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulos-Avanzado p {
+    border: 3px solid green;
+    display: inline-block;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.imagen-Avanzado img{
+    border-radius: 40px;
+}
+
+.ProcesoDesarrollos {
+    color: black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ProcesoDesarrollos */
+
+.cuerpo-ProcesosDesarrollados {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: start;
+    justify-content: space-around;
+}
+
+.cuerpo-ProcesosDesarrollados p {
+    border: 3px solid green;
+    padding: 1rem;
+}
+
+/* ProcesoDesarrollos */
+
+/* implementarModelos */
+
+.implementarModelos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilos para el título */
+.titulos-implementarModelos p {
+    border: 3px solid green;
+    padding: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.titulos-implementarModelos p:hover {
+    transform: scale(1.1);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para la descripción */
+.descripcion-implementarModelos p {
+    padding: 20px;
+    margin-top: 5rem;
+    border: 3px solid red;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.descripcion-implementarModelos p:hover {
+    transform: translateY(-10px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* implementarModelos */

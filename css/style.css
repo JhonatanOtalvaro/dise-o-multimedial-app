@@ -32,7 +32,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.7;
     color: var(--color-white);
-    background: linear-gradient(to bottom, blue, var(--color-primary));
+    background: linear-gradient(to bottom, black, var(--color-bg2));
 }
 
 .container {
@@ -42,6 +42,7 @@ body {
 
 section {
     padding: 6rem 0;
+    
 }
 
 section h2 {
@@ -71,12 +72,6 @@ h4 {
 
 a{
     color: var(--color-white);
-}
-
-img{
-    width: 100%;
-    display: block;
-    object-fit: cover;
 }
 
 .btn {

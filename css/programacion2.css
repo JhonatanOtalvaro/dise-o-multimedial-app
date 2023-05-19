@@ -1,0 +1,1001 @@
+nav {
+    background-color: #222E50;
+}
+
+/*Primera Seccion*/
+
+.modulo1 {
+    background: linear-gradient(to bottom,#3b7861 , #001a57);;
+    color: white;
+}
+
+.estructuraCondicional {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.estructuraCondicional h1 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.cuadro-descripcion-estructura {
+    display: flex;
+    margin-top: 45px;
+}
+
+.equis-estructura-izq {
+    border-radius: 40%;
+    display: flex;
+    border: 3px solid red;
+    background-color: red;
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.cuadro-estructura-condicional-centro {
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.check-estructura-der {
+    border-radius: 40%;
+    background-color: green;
+    border: 3px solid green;
+    display: inline-block;
+    font-size: 24px;
+    padding: 5px 10px;
+    padding: 5px 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.cuadro-estructura-condicional-centro .rombo {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transform: rotate(45deg);
+}
+
+/* Fin Primera Seccion*/
+
+/* Inicio Segunda Seccion */
+
+.tipos-estructuras {
+    color: white;
+    box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.5), inset 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.tiposEstructurasTitulos {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulosEstructuras p {
+    padding: 5px;
+    border: 3px solid green;
+}
+
+.cuadrosTipos {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cuadrosTipos .cuadro1 {
+    font-weight: bold;
+    background-color: #88B04B;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.cuadrosTipos .cuadro2 {
+    color: white;
+    background-color: #4A6984;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.cuadrosTipos .cuadro3 {
+    color: white;
+    background-color: #4A6984;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.titulosEstructuras2 p {
+    margin-top: 20px;
+    padding: 5px;
+    border: 3px solid green;
+}
+
+.cuadrosTipos2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cuadrosTipos2 .cuadro1 {
+    font-weight: bold;
+    background-color: #88B04B;
+    padding: 10px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.cuadrosTipos2 .cuadro2 {
+    color: white;
+    background-color: #4A6984;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.cuadrosTipos2 .cuadro3 {
+    color: white;
+    background-color: #4A6984;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.cuadrosTipos2 .cuadro4 {
+    color: white;
+    background-color: #4A6984;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+/* Fin Segunda Seccion */
+
+/*Inicio Tercera Seccion*/
+
+.tipos-estructuras-multiple {
+    background: linear-gradient(to bottom,#3b7861 , #001a57);;
+    color: black;
+}
+
+.titulos-tipos-estructuras-multiple {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos-tipos-estructuras-multiple p {
+    margin-top: 20px;
+    border: 3px solid #88B04B;
+    padding: 15px;
+}
+
+.cuadro1-titulos-tipos-estructuras-multiple h1 {
+    font-weight: bold;
+    margin-left: 15rem;
+    margin-top: 5rem;
+    background-color: #88B04B;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.cruzTipos {
+    margin-top: 50px;
+}
+
+.cruzTipos .cuadroArriba h2 {
+    background-color: #4A6984;
+    display: inline-block;
+    margin-left: 50rem;
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+.tresCuadrosCentro {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 12rem;
+}
+
+.tresCuadrosCentro h2 {
+    color: white;
+    background-color: #4A6984;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.cuadroDeAbajo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.cuadroDeAbajo h2 {
+    color: white;
+    background-color: #4A6984;
+    padding: 25px;
+    border-radius: 10px;
+    margin-left: 51.5rem;
+}
+
+/*Fin Tercera Seccion*/
+
+/*Inicio Cuarta Seccion*/
+
+.representacionEstructura {
+    color: white;
+    box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.5), inset 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.titulos-representacionEstructura {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos-representacionEstructura p {
+    margin-top: 20px;
+    border: 3px solid #88B04B;
+    padding: 15px;
+}
+
+.diagrama-izquierda img {
+    border-radius: 20px;
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+
+.diagrama-derecha img {
+    border-radius: 20px;
+    margin-left: 60rem;
+    margin-top: -80rem;
+}
+
+/*Fin Cuarta Seccion*/
+
+/*Inicio Quinta Seccion*/
+
+.actividadModulo1 {
+    background: linear-gradient(to bottom,#3b7861 , #001a57);;
+}
+
+.titulos-actividadModulo1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actividadCompletar {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+
+.actividadCompletar p {
+    background-color: #439A86;
+    padding: 20px;
+}
+
+.actividadCompletar input {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    outline: none;
+}
+
+/*Fin Quinta Seccion*/
+
+/*iterativa*/
+
+.iterativa {
+    color: white;
+}
+
+.titulos-iterativa {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos-iterativa p {
+    margin-top: 20px;
+    border: 3px solid #88B04B;
+    padding: 15px;
+}
+
+.iiter {
+    margin-top: 20px;
+}
+
+.iiter img {
+    border-radius: 25px;
+    margin-left: 30%;
+}
+
+/*iterativa*/
+
+/*iterativa2*/
+
+
+.iterativa2 {
+   background: linear-gradient(to bottom,#3b7861 , #001a57);;
+    color: black;
+}
+
+.titulos-iterativa2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos-iterativa2 p {
+    margin-top: 20px;
+    border: 3px solid #88B04B;
+    padding: 15px;
+}
+
+.algoritmoIterativo {
+    margin-top: 60px;
+    display: inline-block;
+    margin-left: 10rem;
+}
+
+.algoritmoIterativo p:nth-child(1) {
+    background-color: #88B04B;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.algoritmoIterativo p:nth-child(2) {
+    background-color: #88B04B;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.algoritmoIterativo p:nth-child(3) {
+    background-color: #88B04B;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.algoritmoIterativo p:nth-child(4) {
+    background-color: #88B04B;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.imagenalgoritmo {
+    margin-left: 50%;
+    margin-top: -22%;
+}
+
+.imagenalgoritmo img {
+    border-radius: 20px;
+}
+
+/*iterativa2*/
+
+.tiposIterativas {
+    color: white;
+}
+
+.titulos-tipositerativa {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos-tipositerativa p {
+    margin-top: 20px;
+    border: 3px solid #88B04B;
+    padding: 15px;
+}
+
+.imagenesTiposI {
+    display: flex;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    justify-content: space-around;
+}
+
+.imagenesTiposI img {
+    border-radius: 20px;
+}
+
+/*iterativa2*/
+
+.IterMientras {
+    background: linear-gradient(to bottom,#3b7861 , #001a57);;
+    color: white;
+}
+
+.titulos-IterMientras {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos-IterMientras p {
+    margin-top: 20px;
+    border: 3px solid #88B04B;
+    padding: 15px;
+}
+
+.IterMientras img {
+    margin-top: 40px;
+    margin-left: 31rem;
+    border-bottom: 10px solid green;
+    border-radius: 20px;
+}
+
+/*iterativa2*/
+
+/* ejemploMientras */
+
+
+
+.titulos-ejemploMientras {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos-ejemploMientras p {
+    margin-top: 20px;
+    border: 3px solid #88B04B;
+    padding: 15px;
+}
+
+.imagenesMientras {
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagenesMientras img {
+    border-radius: 50px;
+}
+
+/* ejemploMientras */
+
+/*hacerMientras*/
+
+.hacerMientras {
+    background: linear-gradient(to bottom,#3b7861 , #001a57);;
+    color: white;
+}
+
+.titulos-hacerMientras {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos-hacerMientras p {
+    margin-top: 20px;
+    border: 3px solid #88B04B;
+    padding: 15px;
+}
+
+.imgHacermientras {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 36%;
+}
+
+.imgHacermientras img {
+    border-radius: 20px;
+}
+
+/*hacerMientras*/
+
+.ejemploDeHacerMientras {
+    color: white;
+    font-weight: bolder;
+}
+
+.titulos-ejemploDeHacerMientras {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgEjemplosHacerMientras {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 13%;
+    justify-content: space-around;
+}
+
+.imgEjemplosHacerMientras img {
+    border-radius: 20px;
+}
+
+/*hacerMientras*/
+
+/* Actividad de Completar Campos */
+
+
+@keyframes slideIn {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    margin-top: 10px;
+    display: none;
+    font-weight: bold;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Actividad de Completar Campos */
+
+/* modulo3-procesoDeTrabaj */
+
+.modulo3-procesoDeTrabajo {
+    background-color: #f2f2f2;
+    color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulos-modulo3-procesoDeTrabajo {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.procesos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.izq-Proceso,
+.der-Proceso {
+    flex: 1;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.izq-Proceso p,
+.der-Proceso p {
+    margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* modulo3-procesoDeTrabaj */
+
+/* mantenimiento */
+
+.container-mantenimiento {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.container-mantenimiento h1 {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+.card p.definition {
+    color: #777;
+}
+
+.selected {
+    background-color: #e0e0e0;
+    cursor: not-allowed;
+}
+
+/* mantenimiento */
+
+/* Modulo4 */
+.Modulo4 {
+    background-color: #f2f2f2;
+    color: black;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Modulo4 img {
+    margin-left: 35px;
+}
+
+/* Modulo4 */
+
+.titulos-Modulo4 p {
+    color: white;
+    margin-left: 36%;
+    border: 3px solid green;
+    display: inline-block;
+    padding: 10px;
+}
+
+.caracteristicasDisenio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.caracteristicasDisenio p {
+    margin: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.caracteristicasDisenio p {
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+}
+
+.caracteristicasDisenio p.visible {
+    opacity: 1;
+}
+
+/* Modulo4Algoritmo */
+
+.Modulo4Algoritmo {
+    background-color: white;
+    color: black;
+}
+
+.Modulo4Algoritmo p {
+    margin-left: 36%;
+    border: 3px solid green;
+    display: inline-block;
+    padding: 20px;
+}
+
+.imagenes-Modulo4Algoritmo {
+    margin-top: 30px;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* Modulo4Algoritmo */
+
+/* ActividadModulo4 */
+
+.ActividadModulo4 {
+    text-align: center;
+    padding: 20px;
+}
+
+.titulos-ActividadModulo4 {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease;
+}
+
+.titulos-ActividadModulo4 h1 {
+    color: #333;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    animation: slideInLeft 1s ease;
+}
+
+.titulos-ActividadModulo4 h2 {
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+    animation: slideInRight 1s ease;
+}
+
+.titulos-ActividadModulo4 p {
+    margin-bottom: 20px;
+    animation: slideInUp 1s ease;
+}
+
+#actividadForm {
+    animation: fadeIn 1s ease;
+}
+
+#actividadForm label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#actividadForm input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+}
+
+#actividadForm input[type="text"]:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+#actividadForm input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#actividadForm input[type="submit"]:hover {
+    background-color: #555;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    animation: slideInUp 1s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(100px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+/* ActividadModulo4 */
+
+/* Modulo5Paradigma */
+
+.Modulo5Paradigma {
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .titulos-Modulo5Paradigma {
+        text-align: center;
+    }
+
+    .titulos-Modulo5Paradigma h1 {
+        color: #333;
+        font-size: 24px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    .titulos-Modulo5Paradigma h2 {
+        color: #555;
+        font-size: 18px;
+        margin-top: 10px;
+        animation: slideInLeft 1s ease-in-out;
+    }
+
+    .titulos-Modulo5Paradigma p {
+        color: #777;
+        font-size: 14px;
+        margin-top: 20px;
+        animation: slideInRight 1s ease-in-out;
+    }
+
+    .parrafosDesc p {
+        margin-top: 40px;
+        padding: 20px;
+        display: inline-block;
+        border: 3px solid green;
+        font-size: 16px;
+        color: #444;
+        line-height: 1.5;
+        margin-bottom: 20px;
+        animation: fadeIn 1s ease-in-out;
+    }
+
+    /* Animación */
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+/* Modulo5Paradigma */
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 30px;
+    color: #ccc;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+    color: gold;
+}
+
+/* Estilos para el botón de siguiente */
+.btn-next {
+    display: block;
+    margin-top: 20px;
+}
